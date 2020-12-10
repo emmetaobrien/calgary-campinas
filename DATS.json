@@ -1,0 +1,303 @@
+{
+  "title": "Calgary Campinas Brain MRI Dataset",
+  "description": "The dataset is currently composed of  3D, T1-weighted reconstructed brain MR images and segmentation masks for certain structures. It also has brain MR raw data (i.e., k-space).",
+  "identifier": {
+    "identifier": "",
+    "identifierSource": ""
+  },
+  "dates": [],
+  "creators": [
+    {
+      "fullName": "Roberto Souza",
+      "firstName": "Roberto",
+      "lastName": "Souza",
+      "email": "roberto.medeirosdeso@ucalgary.ca",
+      "affiliations": [
+        {
+          "name": "Electrical and Computer Engineering, University of Calgary"
+        },
+        {
+          "name": "Hotchkiss Brain Institute, University of Calgary"
+        }
+      ]
+    },
+    {
+      "fullName": "Richard Frayne",
+      "firstName": "Richard",
+      "lastName": "Frayne",
+      "email": "rfrayne@ucalgary.ca",
+      "affiliations": [
+        {
+          "name": "Radiology and Clinical Neuroscience, University of Calgary"
+        },
+        {
+          "name": "Hotchkiss Brain Institute, University of Calgary"
+        }
+      ]
+    },
+    {
+      "fullName": "Leticia Rittner",
+      "firstName": "Leticia",
+      "lastName": "Rittner",
+      "email": "lrittner@dca.fee.unicamp.br",
+      "affiliations": [
+        {
+          "name": "Medical Image Computing Lab, University of Campinas"
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "Nifti"
+      }
+    },
+    {
+      "information": {
+        "value": "HDF5"
+      }
+    }
+  ],
+  "version": "1.0",
+  "privacy": "public",
+  "licenses": [
+    {
+      "name": "CC BY-ND"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        ".nii.gz",
+        ".h5",
+        ".zip"
+      ],
+      "size": 90,
+      "unit": {
+        "value": "GB"
+      },
+      "access": {
+        "landingPage": "https://sites.google.com/view/calgary-campinas-dataset/home",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+      "title": "An open, multi-vendor, multi-field-strength brain MR dataset and analysis of publicly available skull stripping methods agreement",
+      "publicationVenue": "NeuroImage",
+      "authors": [
+        {
+          "fullName": "Roberto Souza",
+          "firstName": "Roberto",
+          "middleInitial": "",
+          "lastName": "Souza",
+          "affiliations": [
+            {
+              "name": "Electrical and Computer Engineering, University of Calgary"
+            },
+            {
+              "name": "Hotchkiss Brain Institute, University of Calgary"
+            }
+          ]
+        },
+        {
+          "fullName": "Oeslle Lucena",
+          "firstName": "Oeslle",
+          "middleInitial": "",
+          "lastName": "Lucena",
+          "affiliations": [
+            {
+              "name": "King's College London"
+            }
+          ]
+        },
+        {
+          "fullName": "Julia Garraf",
+          "firstName": "Julia",
+          "middleInitial": "",
+          "lastName": "Garrafa",
+          "affiliations": [
+            {
+              "name": "University of Campinas"
+            }
+          ]
+        },
+        {
+          "fullName": "David Gobbi",
+          "firstName": "David",
+          "middleInitial": "",
+          "lastName": "Gobbi",
+          "affiliations": [
+            {
+              "name": "Calgary Image Analysis and Processing Centre"
+            }
+          ]
+        },
+        {
+          "fullName": "Marina Salluzzi",
+          "firstName": "Marina",
+          "middleInitial": "",
+          "lastName": "Salluzzi",
+          "affiliations": [
+            {
+              "name": "Calgary Image Analysis and Processing Centre"
+            }
+          ]
+        },
+        {
+          "fullName": "Simone Appenzeller",
+          "firstName": "Simone",
+          "middleInitial": "",
+          "lastName": "Appenzeller",
+          "affiliations": [
+            {
+              "name": "University of Campinas"
+            }
+          ]
+        },
+        {
+          "fullName": "Leticia Rittner",
+          "firstName": "Leticia",
+          "middleInitial": "",
+          "lastName": "Rittner",
+          "affiliations": [
+            {
+              "name": "University of Campinas"
+            }
+          ]
+        },
+        {
+          "fullName": "Richard Frayne",
+          "firstName": "Richard",
+          "middleInitial": "",
+          "lastName": "Frayne",
+          "affiliations": [
+            {
+              "name": "University of Calgary"
+            }
+          ]
+        },
+        {
+          "fullName": "Roberto Lotufo",
+          "firstName": "Roberto",
+          "middleInitial": "",
+          "lastName": "Lotufo",
+          "affiliations": [
+            {
+              "name": "University of Campinas"
+            }
+          ]
+        }
+      ],
+      "dates": [],
+      "identifier": {
+        "identifier": "https://doi.org/10.1016/j.neuroimage.2017.08.021",
+        "identifierSource": ""
+      }
+    }
+  ],
+  "acknowledges": [
+    {
+      "name": "Grants",
+      "funders": [
+        {
+          "name": "Canada Open Neuroscience Platform",
+          "abbreviation": "CONP"
+        },
+        {
+          "name": "Hotchkiss Brain Institute",
+          "abbreviation": "HBI"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "brain"
+    },
+    {
+      "value": "MRI"
+    },
+    {
+      "value": "raw data"
+    },
+    {
+      "value": "big data"
+    },
+    {
+      "value": "MRI reconstruction"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "526"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "526"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "CONP"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "University of Calgary and University of Campinas"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Calgary"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Alberta"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Roberto Souza, roberto.medeirosdeso@uycalgary.ca"
+        }
+      ]
+    }
+  ]
+}
