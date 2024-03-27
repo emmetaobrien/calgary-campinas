@@ -50,12 +50,14 @@
   "types": [
     {
       "information": {
-        "value": "Nifti"
+        "value": "Nifti",
+		"valueIRI": "http://uri.interlex.org/ilx_0778596"
       }
     },
     {
       "information": {
-        "value": "HDF5"
+        "value": "HDF5",
+		"valueIRI": "http://uri.interlex.org/ilx_0778945"
       }
     }
   ],
