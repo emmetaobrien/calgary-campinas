@@ -5,7 +5,6 @@
     "identifier": "",
     "identifierSource": ""
   },
-  "dates": [],
   "creators": [
     {
       "fullName": "Roberto Souza",
@@ -51,18 +50,18 @@
     {
       "information": {
         "value": "Nifti",
-		"valueIRI": "http://uri.interlex.org/ilx_0778596"
+		    "valueIRI": "http://uri.interlex.org/ilx_0778596"
       }
     },
     {
       "information": {
         "value": "HDF5",
-		"valueIRI": "http://uri.interlex.org/ilx_0778945"
+		    "valueIRI": "http://uri.interlex.org/ilx_0778945"
       }
     }
   ],
   "version": "1.0",
-  "privacy": "public",
+  "privacy": "open",
   "licenses": [
     {
       "name": "CC BY-ND"
@@ -71,9 +70,9 @@
   "distributions": [
     {
       "formats": [
-        ".nii.gz",
-        ".h5",
-        ".zip"
+        "NIfTI",
+        "H5",
+        "ZIP"
       ],
       "size": 90,
       "unit": {
