@@ -291,8 +291,16 @@
         {
           "value": "Canada"
         }
+      ] 
+	},	
+	{
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.jpg"
+        }
       ]
-    },
+    },  
     {
       "category": "contact",
       "values": [
